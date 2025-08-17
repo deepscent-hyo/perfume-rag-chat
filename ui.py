@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 import os, streamlit as st, requests
-URL = st.secrets.get("API_URL") or os.getenv("API_URL") or ""
+URL = st.secrets.get("API_URL") or os.getenv("API_URL") or "https://awqd7zegwsp7psombugpqvilrq0tdvoz.lambda-url.ap-northeast-2.on.aws/ask"
 
 st.set_page_config(page_title="Deepscent 향 챗봇", page_icon="🧴")
 
